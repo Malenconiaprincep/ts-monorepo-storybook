@@ -1,0 +1,15 @@
+:global(.ks-dropdown) {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    z-index: 1070;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+  
+:global(.ks-dropdown-hidden) {
+      display: none;
+}
